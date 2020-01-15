@@ -70,3 +70,6 @@ Migrating to CreateStudents (20200115215752)
   [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
   [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
   [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "students" ("first_name", "last_name", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["first_name", "mike"], ["last_name", "dylan"], ["created_at", "2020-01-15 22:30:01.679901"], ["updated_at", "2020-01-15 22:30:01.679901"]]
+  [1m[35m (13.1ms)[0m  [1m[36mcommit transaction[0m
